@@ -1,0 +1,20 @@
+algoritmo "saldo positivo ou negativo"
+// Função :  verificar se o saldo do usuario é positivo ou negativo
+// Autor :   Evellyn de Santana Feliciano
+// Data : 25/05/2023
+// Seção de Declarações 
+var
+salario,gastos: inteiro
+
+inicio
+// Processamento
+escreval ("Digite seu salario mensal")
+leia (salario)
+escreval ("Digite seus gastos")
+leia (gastos)
+     se (gastos<=salario) entao
+     escreval ("Tudo bem, seu salario é positivo")
+     senao
+     escreval("Eita.. parece que alguém tem gastado alem da conta. Saldo negativo")
+     fimse
+fimalgoritmo
