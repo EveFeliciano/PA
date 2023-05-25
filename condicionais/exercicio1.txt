@@ -1,0 +1,18 @@
+algoritmo "numero maior que 10"
+// Função :  verificar se numero é maior que é 10
+// Autor :   Evellyn de Santana Feliciano
+// Data : 25/05/2023
+// Seção de Declarações 
+var
+num: inteiro
+
+inicio
+// Processamento
+escreval ("Digite seu numero")
+leia (num)
+     se (num>=10) entao
+     escreval ("Seu numero é maior ou igual que 10")
+     senao
+     escreval("Seu numero não é maior que 10")
+     fimse
+fimalgoritmo
