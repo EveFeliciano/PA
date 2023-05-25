@@ -1,0 +1,32 @@
+algoritmo "Dia, mes, ano"
+// Função :   Validar data
+// Autor : Evellyn Feliciano
+// Data : 25/05/2023
+// Seção de Declarações 
+var
+dia, mes, ano, anoatual: logico
+
+inicio
+escreval ("Digite o ano atual")
+leia (anoatual)
+escreval ("Em que ano se refere?")
+leia (ano)
+escreval ("Em que mês se refere?")
+leia (mes)
+escreval ("Em que dia se refere?")
+leia (dia)
+
+//processamento
+ se (ano<anoatual) entao
+   se ((mes>=1) e (mes<=12)) entao
+       se ((dia>=1) e (mes<=31)) entao
+          escreval ("Sua data é válida")
+       senao
+          escreval ("Sua data é inválida")
+       fimse
+   fimse
+ senao
+      escreval ("esta data é inválida")
+ fimse
+fimalgoritmo
+
