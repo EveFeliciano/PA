@@ -1,5 +1,5 @@
 Algoritmo "Notas bimestrais"
-// Descrição   : informar notas bimestrais de um aluno
+// DescriÃ§Ã£o   : informar notas bimestrais de um aluno
 // Autor(a)    : Evellyn de S. Feliciano
 // Data atual  : 25/05/2023
 Var
@@ -10,19 +10,19 @@ I,R,B,MB: logico
 
 Inicio
 // processamento
-escreval("Olá Etequiano, digite seu nome")
+escreval("OlÃ¡ Etequiano, digite seu nome")
 leia(nome)
 escreval("Qual foi sua nota media neste ano? ")
 leia(mencao)
 
 se((mencao<>I)e(mencao<>R)e(mencao<>B)e(mencao<>MB))entao
-     escreval("Qual é, digita isso daí direito")
+     escreval("Qual Ã©, digita isso daÃ­ direito")
 fimse
 
 se(mencao=I)e(mencao=R)entao
-     escreval("Sinto muito, mas você foi reprovado")
+     escreval("Sinto muito, mas vocÃª foi reprovado")
 fimse
-se (mencao=B)e(mencao=MB) então
+se (mencao=B)e(mencao=MB) entÃ£o
      escreval("Aprovado, parabens")
 fimse
 
