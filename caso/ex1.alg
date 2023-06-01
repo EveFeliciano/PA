@@ -1,27 +1,27 @@
 algoritmo "caso"
-// Função : somar,subtrair,dividir e multiplicar
+// FunÃ§Ã£o : ler numero
 // Autor : Evellyn de Santana Feliciano
 // Data : 01/06/2023
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
 numero: real
 inicio
-// Seção de Comandos
+// SeÃ§Ã£o de Comandos
 escreval ("digite seu numero")
 leia (numero)
 
 escolha numero
 
         caso 1
-             escreval("SEU NUMERO É UM")
+             escreval("SEU NUMERO Ã‰ UM")
         caso 2
-             escreval("SEU NUMERO É DOIS")
+             escreval("SEU NUMERO Ã‰ DOIS")
         caso 3
-             escreval("SEU NUMERO É TRÊS")
+             escreval("SEU NUMERO Ã‰ TRÃŠS")
         caso 4
-             escreval("SEU NUMERO É QUARTO")
+             escreval("SEU NUMERO Ã‰ QUARTO")
         caso 5
-             escreval("SEU NUMERO É CINCO")
+             escreval("SEU NUMERO Ã‰ CINCO")
         outrocaso
              escreval ("NUMERO INVALIDO")
 fimescolha
